@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PPG Premium Preview</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box; scroll-behavior: smooth;}
+body{font-family:Arial,sans-serif;background:#f5f5f5;color:#222}
+.container{max-width:1250px;margin:auto;padding:20px}
+.navbar{display:flex;justify-content:space-between;align-items:center;background:#1f4d2e;padding:14px 24px;border-radius:40px;margin-bottom:30px;animation:fadeDown 1s}
+.logo{color:#fff;font-size:28px;font-weight:bold}.logo span{color:#ffbf00}
+nav a{color:#fff;text-decoration:none;margin:0 16px; font-size:15px;transition:.3s}nav a:hover{color:#ffbf00}
+.contact{background:#fff;padding:12px 24px;border-radius:30px}
+.hero{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:30px;padding:40px 0}
+.hero-text{animation:fadeLeft 1s}.hero-text small{display:inline-block;border:2px solid #ffbf00;padding:8px 14px;border-radius:8px;margin-bottom:18px}.hero-text h1{font-size:45px;line-height:1.1}.hero-text h1 span{color:#ffbf00}.hero-text h2{font-size:30px}.hero-text p{margin:18px 0;color:#555;max-width:520px}.btns{display:flex;gap:16px;margin-top:25px}.btn{padding:14px 26px;border-radius:30px;border:none;cursor:pointer}.primary{background:#1f4d2e;color:#fff}.secondary{background:#fff;border:1px solid #111}
+.hero-image{position:relative;display:flex;justify-content:center;animation:fadeRight 1s}.circle{width:340px;height:340px;background:#ffbf00;border-radius:50%;position:absolute;top:30px}
+.photo{width:320px;height:420px;background:#ddd;border-radius:20px;position:relative;z-index:2;box-shadow:0 15px 30px rgba(0,0,0,.1)}
+.marquee{margin:30px 0;background:#ffbf00;color:#111;padding:18px;font-weight:bold;overflow:hidden;white-space:nowrap}.marquee span{display:inline-block;animation:slide 10s linear infinite}
+.services{padding:60px 0}
+.title{font-size:42px;margin-bottom:30px}.title span{color:#ffbf00;font-style:italic}.art{font-size:28px; padding: 20px; text-align: center; font-weight:bold;}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;}.card{background:#fff; height: 200px;padding:28px;border-radius:18px;box-shadow:0 10px 20px rgba(0,0,0,.05);transition:.3s}.card:hover{transform:translateY(-8px)}.card h3{margin:12px 0}
+.btn-download{  display:inline-block;margin-top: 20px; padding:10px 24px;  background:#1f4d2e;  color:#fff;  border-radius:30px;  text-decoration:none;  font-weight:600;  transition:0.3s;}.btn-download:hover{  background:#f4b400;  color:#111;}
+.cards1{display:grid;(1,1fr); gap:32px;}.card1{margin: 0 auto;background:#fff;width: 500px; height: 400px; padding: 28px; border-radius:18px;box-shadow:0 10px 20px rgba(0,0,0,.05);transition:.3s}.card1:hover{transform:translateY(-8px)}.card1 h3{margin:12px 0}
+.cards2{display:grid;grid-template-columns:repeat(2,1fr);gap:32px;}.card2{background:#fff;height: 200px;padding:28px;border-radius:18px;box-shadow:0 10px 20px rgba(0,0,0,.05);transition:.3s}.card2:hover{transform:translateY(-8px)}.card2 h3{margin:12px 0}
+.about{background:#1f4d2e;color:#fff;padding:70px 40px;border-radius:0;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.about-img{width:320px;height:320px;background:#ffbf00;border-radius:50%;margin:auto;animation:float 4s ease-in-out infinite}.about h2{font-size:48px}.about h2 span{color:#ffbf00}.stats{display:flex;gap:30px;margin:24px 0}.stats div strong{font-size:32px;color:#ffbf00;display:block}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeLeft{from{opacity:0;transform:translateX(-40px)}to{opacity:1;transform:translateX(0)}}
+@keyframes fadeRight{from{opacity:0;transform:translateX(40px)}to{opacity:1;transform:translateX(0)}}
+@keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}
+@media(max-width:900px){.hero,.about{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.hero-text h1{font-size:42px}.navbar{flex-direction:column;gap:15px}}
+</style>
+</head>
+
+<body>
+<div class='container'>
+<header class='navbar'>
+<div class='logo'><span>E-</span>Portofolio</div>
+<nav><a href='index2.html'>Kembali</a></nav>
+<div></div>
+</header>
+<div class='marquee'><span>PPL I Terbimbing | Semester I | PPG Prajabatan 2026 | Universitas Negeri Yogyakarta | Informatika</span></div>
+<section class='services'>
+<h2 id="artefak" class='title'><span>Modul</span> Pembelajaran</h2>
+<div class='cards'>
+<div class='card'><h3>Modul Pembelajaran Siklus 1</h3></a><p>Modul Pembelajaran terdiri dari tiga siklus atau tiga pertemuan.</p>
+<a href="https://docs.google.com/document/d/1Tw7eyOUi7G76OvH-go0VdypS08udlaznRRWC37nbl48/edit?tab=t.tdjqhnrg7pf4" download="Modul Ajar Siklus 1" class="btn-download">Preview</a>
+<a href="https://docs.google.com/document/d/1Tw7eyOUi7G76OvH-go0VdypS08udlaznRRWC37nbl48/export?format=pdf" download="Modul Ajar Siklus 1" class="btn-download">Download</a></div>
+
+<div class='card'><h3>Modul Pembelajaran Siklus 2</h3><p>Modul Pembelajaran terdiri dari tiga siklus atau tiga pertemuan.</p>
+<a href="https://docs.google.com/document/d/1Tw7eyOUi7G76OvH-go0VdypS08udlaznRRWC37nbl48/edit?tab=t.vc0vo6t7wi96" download="Modul Ajar Siklus 2" class="btn-download">Preview</a>
+	<a href="https://docs.google.com/document/d/1Tw7eyOUi7G76OvH-go0VdypS08udlaznRRWC37nbl48/export?format=pdf" download="Modul Ajar Siklus 1" class="btn-download">Download</a></div>
+
+<div class='card'><h3>Modul Pembelajaran Siklus 3</h3><p>Modul Pembelajaran terdiri dari tiga siklus atau tiga pertemuan.</p>
+	<a href="https://docs.google.com/document/d/1Tw7eyOUi7G76OvH-go0VdypS08udlaznRRWC37nbl48/edit?tab=t.179lklbcbf0m" download="Modul Ajar Siklus 3" class="btn-download">Preview</a>
+<a href="https://docs.google.com/document/d/1Tw7eyOUi7G76OvH-go0VdypS08udlaznRRWC37nbl48/export?format=pdf" download="Modul Ajar Siklus 1" class="btn-download">Download</a></div>
